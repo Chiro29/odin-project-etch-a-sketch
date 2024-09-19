@@ -8,6 +8,11 @@ body {
   text-align: center;
 }
 
+h1 {
+  font-size: 42px;
+  color:coral;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -19,6 +24,17 @@ body {
   background-color: white;
   border: 1px solid lightgray;
   box-sizing: border-box;
+}
+
+.btn {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 12px;
+  margin: 24px;
+  border-radius: 6px;
+  border: 0;
+  color: white;
+  background-color: coral;
 }
 
 
